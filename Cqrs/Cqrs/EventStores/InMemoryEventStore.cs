@@ -7,6 +7,9 @@ using System.Linq;
 
 namespace Lokf.Cqrs.EventStores
 {
+    /// <summary>
+    /// An event store that purely exists in memory.
+    /// </summary>
     public class InMemoryEventStore : IEventStore
     {
         private readonly List<IDomainEvent> changes = new List<IDomainEvent>();

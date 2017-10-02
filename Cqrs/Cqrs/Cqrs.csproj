@@ -6,6 +6,7 @@
     <PackageId>Lokf.Cqrs</PackageId>
     <Authors>Lokf</Authors>
     <Description>CQRS framework</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
