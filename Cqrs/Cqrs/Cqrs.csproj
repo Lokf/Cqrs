@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Lokf.Cqrs</RootNamespace>
+    <PackageId>Lokf.Cqrs</PackageId>
+    <Authors>Lokf</Authors>
+    <Description>CQRS framework</Description>
   </PropertyGroup>
 
 </Project>

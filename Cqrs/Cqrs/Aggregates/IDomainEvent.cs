@@ -6,5 +6,6 @@ namespace Lokf.Cqrs.Aggregates
 {
     public interface IDomainEvent
     {
+        Guid AggregateId { get; }
     }
 }

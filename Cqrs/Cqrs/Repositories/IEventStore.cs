@@ -9,6 +9,6 @@ namespace Lokf.Cqrs.Repositories
     {
         IEnumerable<IDomainEvent> GetDomainEvents(Guid aggregateId);
 
-        void SaveDomainEvents(Guid aggregateId, IEnumerable<IDomainEvent> domainEvents);
+        void SaveDomainEvents(Guid aggregateId, IEnumerable<IDomainEvent> domainEvents, int expectedVersion);
     }
 }
