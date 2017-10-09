@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Lokf.Cqrs.Aggregates
 {
@@ -11,7 +10,7 @@ namespace Lokf.Cqrs.Aggregates
     public abstract class AggregateRoot
     {
         /// <summary>
-        /// The state changers brings the aggregate from one state to an other when an event occurs.
+        /// The state changers brings the aggregate from one state to an other when a domain event occurs.
         /// </summary>
         private readonly Dictionary<Type, Action<IDomainEvent>> stateChangers = new Dictionary<Type, Action<IDomainEvent>>();
 
