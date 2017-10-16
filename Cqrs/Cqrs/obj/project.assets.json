@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Lokf.Utils/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Utils.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Utils.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -29,6 +38,16 @@
     }
   },
   "libraries": {
+    "Lokf.Utils/1.0.0": {
+      "sha512": "xpUvJoWbuTmNjmYEGmnxj6tVQW6SaLEsOWFbzMEOBHbllT5m5ncCi1zGZVQpeitSE4dcjfMMjIdESaD5rSDc6g==",
+      "type": "package",
+      "path": "lokf.utils/1.0.0",
+      "files": [
+        "lib/netstandard2.0/Utils.dll",
+        "lokf.utils.1.0.0.nupkg.sha512",
+        "lokf.utils.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -173,6 +192,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Lokf.Utils >= 1.0.0",
       "NETStandard.Library >= 2.0.0"
     ]
   },
@@ -181,7 +201,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "restoreSettings": {
       "hideWarningsAndErrors": true
     },
@@ -220,6 +240,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Lokf.Utils": {
+            "target": "Package",
+            "version": "1.0.0"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lokf.Utils.Extensions.Linq;
+using System;
 using System.Collections.Generic;
 
 namespace Lokf.Cqrs.Aggregates
@@ -49,15 +50,23 @@ namespace Lokf.Cqrs.Aggregates
         }
 
         /// <summary>
+        /// Adds a state changer for the domain event.
+        /// </summary>
+        /// <typeparam name="TDomainEvent">The type of domain event.</typeparam>
+        /// <param name="stateChanger">The state changer.</param>
+        public void AddStateChanger<TDomainEvent>(Action<TDomainEvent> stateChanger)
+            where TDomainEvent : IDomainEvent
+        {
+            stateChangers.Add(typeof(TDomainEvent), domainEvent => stateChanger((TDomainEvent)domainEvent));
+        }
+
+        /// <summary>
         /// Brings the aggregate inte its current state by replaying the history.
         /// </summary>
         /// <param name="history">The history of past domain events.</param>
         public void LoadFromHistory(IEnumerable<IDomainEvent> history)
         {
-            foreach (var stateChange in history)
-            {
-                ApplyDomainEvent(stateChange);
-            }
+            history.ForEach(ApplyDomainEvent);
         }
 
         /// <summary>
@@ -67,7 +76,6 @@ namespace Lokf.Cqrs.Aggregates
         protected void RaiseDomainEvent(IDomainEvent domainEvent)
         {
             ApplyDomainEvent(domainEvent);
-
             uncommitedDominEvents.Add(domainEvent);            
         }
 
