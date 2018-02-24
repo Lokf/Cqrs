@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cqrs", "Cqrs\Cqrs.csproj", "{38CAAD92-BA7F-4B7F-9DDC-6763BB2EC060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cqrs", "Cqrs\Cqrs.csproj", "{38CAAD92-BA7F-4B7F-9DDC-6763BB2EC060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsTestFramework", "CqrsTestFramework\CqrsTestFramework.csproj", "{F1CFC140-4FA7-42C9-A2BE-F19B4DD97759}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{38CAAD92-BA7F-4B7F-9DDC-6763BB2EC060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38CAAD92-BA7F-4B7F-9DDC-6763BB2EC060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38CAAD92-BA7F-4B7F-9DDC-6763BB2EC060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CFC140-4FA7-42C9-A2BE-F19B4DD97759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CFC140-4FA7-42C9-A2BE-F19B4DD97759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CFC140-4FA7-42C9-A2BE-F19B4DD97759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CFC140-4FA7-42C9-A2BE-F19B4DD97759}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
