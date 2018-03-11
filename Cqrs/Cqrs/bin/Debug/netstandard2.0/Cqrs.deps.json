@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "d5ef1509ab9594c5ee7350d5e7860d93d6b54c43"
+    "signature": "a68b950d370efd40f0d018446e399c51ceabe14f"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,14 +9,20 @@
     ".NETStandard,Version=v2.0/": {
       "Cqrs/1.0.2": {
         "dependencies": {
-          "NETStandard.Library": "2.0.0"
+          "Lokf.Utils": "1.0.0",
+          "NETStandard.Library": "2.0.1"
         },
         "runtime": {
           "Cqrs.dll": {}
         }
       },
+      "Lokf.Utils/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Utils.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {},
-      "NETStandard.Library/2.0.0": {
+      "NETStandard.Library/2.0.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
@@ -29,6 +35,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Lokf.Utils/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xpUvJoWbuTmNjmYEGmnxj6tVQW6SaLEsOWFbzMEOBHbllT5m5ncCi1zGZVQpeitSE4dcjfMMjIdESaD5rSDc6g==",
+      "path": "lokf.utils/1.0.0",
+      "hashPath": "lokf.utils.1.0.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -36,12 +49,12 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
-    "NETStandard.Library/2.0.0": {
+    "NETStandard.Library/2.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
-      "path": "netstandard.library/2.0.0",
-      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
     }
   }
 }

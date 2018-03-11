@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Lokf.Cqrs.CqrsTestFramework</RootNamespace>
+    <Authors>Lokf</Authors>
+    <Company>Lokf</Company>
+    <PackageId>Lokf.Cqrs.TestFramework</PackageId>
+    <Description>Test framework for CQRS applications.</Description>
   </PropertyGroup>
 
   <ItemGroup>
