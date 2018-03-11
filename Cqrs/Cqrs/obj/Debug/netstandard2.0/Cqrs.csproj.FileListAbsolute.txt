@@ -1,9 +1,0 @@
-C:\Code\Cqrs\Cqrs\Cqrs\bin\Debug\netstandard2.0\Cqrs.deps.json
-C:\Code\Cqrs\Cqrs\Cqrs\bin\Debug\netstandard2.0\Cqrs.dll
-C:\Code\Cqrs\Cqrs\Cqrs\bin\Debug\netstandard2.0\Cqrs.pdb
-C:\Code\Cqrs\Cqrs\Cqrs\obj\Debug\netstandard2.0\Cqrs.csprojResolveAssemblyReference.cache
-C:\Code\Cqrs\Cqrs\Cqrs\obj\Debug\netstandard2.0\Cqrs.csproj.CoreCompileInputs.cache
-C:\Code\Cqrs\Cqrs\Cqrs\obj\Debug\netstandard2.0\Cqrs.AssemblyInfoInputs.cache
-C:\Code\Cqrs\Cqrs\Cqrs\obj\Debug\netstandard2.0\Cqrs.AssemblyInfo.cs
-C:\Code\Cqrs\Cqrs\Cqrs\obj\Debug\netstandard2.0\Cqrs.dll
-C:\Code\Cqrs\Cqrs\Cqrs\obj\Debug\netstandard2.0\Cqrs.pdb
