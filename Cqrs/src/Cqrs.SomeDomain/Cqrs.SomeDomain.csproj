@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>SoderbergPartners.Kalle.Cqrs.SomeDomain</AssemblyName>
-    <RootNamespace>SoderbergPartners.Kalle.Cqrs.SomeDomain</RootNamespace>
+    <AssemblyName>Lokf.Cqrs.SomeDomain</AssemblyName>
+    <RootNamespace>Lokf.Cqrs.SomeDomain</RootNamespace>
     <CodeAnalysisRuleSet>codeAnalysis.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 

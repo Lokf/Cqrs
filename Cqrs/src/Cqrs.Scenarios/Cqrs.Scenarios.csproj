@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>SoderbergPartners.Kalle.Cqrs.Scenarios</AssemblyName>
-    <RootNamespace>SoderbergPartners.Kalle.Cqrs.Scenarios</RootNamespace>
+    <AssemblyName>Lokf.Cqrs.Scenarios</AssemblyName>
+    <RootNamespace>Lokf.Cqrs.Scenarios</RootNamespace>
     <CodeAnalysisRuleSet>codeAnalysis.ruleset</CodeAnalysisRuleSet>
     <Authors>Kalle</Authors>
     <Company>Söderberg &amp; Partners</Company>
@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netcoreapp2.0\SoderbergPartners.Kalle.Cqrs.Scenarios.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netcoreapp2.0\Lokf.Cqrs.Scenarios.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

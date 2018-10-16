@@ -5,9 +5,9 @@
 
     <IsPackable>false</IsPackable>
 
-    <AssemblyName>SoderbergPartners.Kalle.Cqrs.Tests</AssemblyName>
+    <AssemblyName>Lokf.Cqrs.Tests</AssemblyName>
 
-    <RootNamespace>SoderbergPartners.Kalle.Cqrs.Tests</RootNamespace>
+    <RootNamespace>Lokf.Cqrs.Tests</RootNamespace>
     <CodeAnalysisRuleSet>codeAnalysis.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 

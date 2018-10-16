@@ -2,17 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>SoderbergPartners.Kalle.Cqrs</AssemblyName>
-    <RootNamespace>SoderbergPartners.Kalle.Cqrs</RootNamespace>
-    <Authors>Kalle</Authors>
-    <Company>Söderberg &amp; Partners</Company>
+    <AssemblyName>Lokf.Cqrs</AssemblyName>
+    <RootNamespace>Lokf.Cqrs</RootNamespace>
+    <Authors>Lokf</Authors>
+    <Company>Lokf</Company>
     <Description>Cqrs framework.</Description>
     <CodeAnalysisRuleSet>codeAnalysis.ruleset</CodeAnalysisRuleSet>
     <Version>2.0.0</Version>
+    <PackageId>Lokf.Cqrs</PackageId>
+    <Product>Lokf.Cqrs</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netcoreapp2.0\SoderbergPartners.Kalle.Cqrs.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netcoreapp2.0\Lokf.Cqrs.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
