@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>SoderbergPartners.Kalle.Cqrs.Scenarios</AssemblyName>
+    <RootNamespace>SoderbergPartners.Kalle.Cqrs.Scenarios</RootNamespace>
+    <CodeAnalysisRuleSet>codeAnalysis.ruleset</CodeAnalysisRuleSet>
+    <Authors>Kalle</Authors>
+    <Company>Söderberg &amp; Partners</Company>
+    <Description>Testing framework for CQRS scenarios.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\SoderbergPartners.Kalle.Cqrs.Scenarios.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.0-beta2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cqrs\Cqrs.csproj" />
+  </ItemGroup>
+
+</Project>

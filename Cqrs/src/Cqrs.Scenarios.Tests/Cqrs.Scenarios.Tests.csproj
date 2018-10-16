@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyName>SoderbergPartners.Kalle.Cqrs.Scenarios.Tests</AssemblyName>
+
+    <RootNamespace>SoderbergPartners.Kalle.Cqrs.Scenarios.Tests</RootNamespace>
+    <CodeAnalysisRuleSet>codeAnalysis.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.3.0-beta2" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.0-beta2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cqrs.Scenarios\Cqrs.Scenarios.csproj" />
+    <ProjectReference Include="..\Cqrs.SomeDomain\Cqrs.SomeDomain.csproj" />
+    <ProjectReference Include="..\Cqrs\Cqrs.csproj" />
+  </ItemGroup>
+
+</Project>

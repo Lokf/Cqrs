@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>SoderbergPartners.Kalle.Cqrs.SomeDomain</AssemblyName>
+    <RootNamespace>SoderbergPartners.Kalle.Cqrs.SomeDomain</RootNamespace>
+    <CodeAnalysisRuleSet>codeAnalysis.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cqrs\Cqrs.csproj" />
+  </ItemGroup>
+
+</Project>
