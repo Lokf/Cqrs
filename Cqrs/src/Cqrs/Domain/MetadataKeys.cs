@@ -1,4 +1,4 @@
-﻿namespace SoderbergPartners.Kalle.Cqrs.Domain
+﻿namespace Lokf.Cqrs.Domain
 {
     /// <summary>
     /// Contains commonly used keys for metadata.

@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
-using SoderbergPartners.Kalle.Cqrs.Domain;
+using Lokf.Cqrs.Domain;
 using System;
 
-namespace SoderbergPartners.Kalle.Cqrs.EventStores
+namespace Lokf.Cqrs.EventStores
 {
     /// <summary>
     /// A seriliazer for domain events.

@@ -1,4 +1,4 @@
-﻿namespace SoderbergPartners.Kalle.Cqrs.Scenarios
+﻿namespace Lokf.Cqrs.Scenarios
 {
     /// <summary>
     /// The result of a verification.

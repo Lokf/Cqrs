@@ -1,4 +1,4 @@
-﻿namespace SoderbergPartners.Kalle.Cqrs.Repository
+﻿namespace Lokf.Cqrs.Repository
 {
     /// <summary>
     /// A unit of work working against an event store.

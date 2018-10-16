@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using SoderbergPartners.Kalle.Cqrs.Domain;
-using SoderbergPartners.Kalle.Cqrs.Repository;
-using SoderbergPartners.Kalle.Cqrs.SomeDomain;
+using Lokf.Cqrs.Domain;
+using Lokf.Cqrs.Repository;
+using Lokf.Cqrs.SomeDomain;
 using System;
 using System.Collections.Generic;
 
-namespace SoderbergPartners.Kalle.Cqrs.Tests
+namespace Lokf.Cqrs.Tests
 {
     [TestClass]
     public class DomainRepositoryTests

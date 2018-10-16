@@ -1,16 +1,16 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using Newtonsoft.Json.Linq;
-using SoderbergPartners.Kalle.Cqrs.Domain;
-using SoderbergPartners.Kalle.Cqrs.EventStores;
-using SoderbergPartners.Kalle.Cqrs.Scenarios;
-using SoderbergPartners.Kalle.Cqrs.SomeDomain;
+using Lokf.Cqrs.Domain;
+using Lokf.Cqrs.EventStores;
+using Lokf.Cqrs.Scenarios;
+using Lokf.Cqrs.SomeDomain;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace SoderbergPartners.Kalle.Cqrs.Tests.EventStores
+namespace Lokf.Cqrs.Tests.EventStores
 {
     [TestClass]
     public class EventStoreTests

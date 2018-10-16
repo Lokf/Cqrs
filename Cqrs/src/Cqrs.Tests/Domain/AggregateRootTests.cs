@@ -1,11 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SoderbergPartners.Kalle.Cqrs.Domain;
-using SoderbergPartners.Kalle.Cqrs.SomeDomain;
+using Lokf.Cqrs.Domain;
+using Lokf.Cqrs.SomeDomain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SoderbergPartners.Kalle.Cqrs.Tests.Domain
+namespace Lokf.Cqrs.Tests.Domain
 {
     [TestClass]
     public class AggregateRootTests

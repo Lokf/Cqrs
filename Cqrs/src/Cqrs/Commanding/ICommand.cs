@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoderbergPartners.Kalle.Cqrs.Commanding
+namespace Lokf.Cqrs.Commanding
 {
     /// <summary>
     /// Marker interface for all commands so that commanding can be using decorator pattern.

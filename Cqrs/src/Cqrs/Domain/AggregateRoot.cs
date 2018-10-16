@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SoderbergPartners.Kalle.Cqrs.Domain
+namespace Lokf.Cqrs.Domain
 {
     /// <summary>
     /// Base class for all aggregate roots. Provides functionallity for raising domain event

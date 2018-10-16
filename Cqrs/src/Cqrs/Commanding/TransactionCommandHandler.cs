@@ -1,6 +1,6 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Repository;
+﻿using Lokf.Cqrs.Repository;
 
-namespace SoderbergPartners.Kalle.Cqrs.Commanding
+namespace Lokf.Cqrs.Commanding
 {
     /// <summary>
     /// Wraps an inner command handler in a transaction. The unit of work performed inside the inner command handler is

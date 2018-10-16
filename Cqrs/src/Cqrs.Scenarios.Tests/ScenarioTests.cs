@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SoderbergPartners.Kalle.Cqrs.Domain;
-using SoderbergPartners.Kalle.Cqrs.SomeDomain;
+using Lokf.Cqrs.Domain;
+using Lokf.Cqrs.SomeDomain;
 using System;
 using System.Collections.Generic;
 
-namespace SoderbergPartners.Kalle.Cqrs.Scenarios.Tests
+namespace Lokf.Cqrs.Scenarios.Tests
 {
     [TestClass]
     public class ScenarioTests

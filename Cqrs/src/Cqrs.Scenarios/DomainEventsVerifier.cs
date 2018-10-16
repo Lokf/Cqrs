@@ -1,8 +1,8 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Domain;
+﻿using Lokf.Cqrs.Domain;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SoderbergPartners.Kalle.Cqrs.Scenarios
+namespace Lokf.Cqrs.Scenarios
 {
     /// <summary>
     /// Verifier of domain events.

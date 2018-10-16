@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace SoderbergPartners.Kalle.Cqrs.Domain
+namespace Lokf.Cqrs.Domain
 {
     /// <summary>
     /// Key-value stored metadata for events.

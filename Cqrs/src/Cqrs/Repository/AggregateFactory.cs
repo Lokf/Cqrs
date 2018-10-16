@@ -1,8 +1,8 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Domain;
+﻿using Lokf.Cqrs.Domain;
 using System;
 using System.Linq.Expressions;
 
-namespace SoderbergPartners.Kalle.Cqrs.Repository
+namespace Lokf.Cqrs.Repository
 {
     /// <summary>
     /// A factory for creating new instances of aggregates. The class is static so that the

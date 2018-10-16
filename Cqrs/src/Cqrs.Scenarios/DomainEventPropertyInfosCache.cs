@@ -1,10 +1,10 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Domain;
+﻿using Lokf.Cqrs.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace SoderbergPartners.Kalle.Cqrs.Scenarios
+namespace Lokf.Cqrs.Scenarios
 {
     /// <summary>
     /// Cache for property infos of domain events.

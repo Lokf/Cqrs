@@ -1,9 +1,9 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Domain;
+﻿using Lokf.Cqrs.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoderbergPartners.Kalle.Cqrs.EventStores
+namespace Lokf.Cqrs.EventStores
 {
     /// <summary>
     /// Event persistence.

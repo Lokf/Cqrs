@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SoderbergPartners.Kalle.Cqrs.EventStores
+namespace Lokf.Cqrs.EventStores
 {
     /// <summary>
     /// Provides a mapping from the full name of the type to the actual type.

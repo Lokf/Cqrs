@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace SoderbergPartners.Kalle.Cqrs.Repository
+namespace Lokf.Cqrs.Repository
 {
     /// <summary>
     /// Exception thrown when a concurreny issue is detected when saving events.

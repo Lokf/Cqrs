@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SoderbergPartners.Kalle.Cqrs.Scenarios
+namespace Lokf.Cqrs.Scenarios
 {
     /// <summary>
     /// Verifier of exceptions.

@@ -1,7 +1,7 @@
 ﻿using System;
-using SoderbergPartners.Kalle.Cqrs.Domain;
+using Lokf.Cqrs.Domain;
 
-namespace SoderbergPartners.Kalle.Cqrs.Repository
+namespace Lokf.Cqrs.Repository
 {
     /// <summary>
     /// An domain repository backed by an event store.

@@ -1,8 +1,8 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Commanding;
-using SoderbergPartners.Kalle.Cqrs.Repository;
+﻿using Lokf.Cqrs.Commanding;
+using Lokf.Cqrs.Repository;
 using System;
 
-namespace SoderbergPartners.Kalle.Cqrs.SomeDomain
+namespace Lokf.Cqrs.SomeDomain
 {
     public class SomeOtherSuccessfulCommandHandler : ICommandHandler<SomeOtherCommand>
     {

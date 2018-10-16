@@ -1,9 +1,9 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Commanding;
+﻿using Lokf.Cqrs.Commanding;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoderbergPartners.Kalle.Cqrs.SomeDomain
+namespace Lokf.Cqrs.SomeDomain
 {
     public class SomeOtherFailingCommandHandler : ICommandHandler<SomeOtherCommand>
     {

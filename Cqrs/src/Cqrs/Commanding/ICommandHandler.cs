@@ -1,4 +1,4 @@
-﻿namespace SoderbergPartners.Kalle.Cqrs.Commanding
+﻿namespace Lokf.Cqrs.Commanding
 {
     /// <summary>
     /// A command handler of type <see cref="ICommandHandler{TCommand}"/> knows how to handle

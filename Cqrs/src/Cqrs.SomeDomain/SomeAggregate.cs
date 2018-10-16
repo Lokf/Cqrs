@@ -1,7 +1,7 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Domain;
+﻿using Lokf.Cqrs.Domain;
 using System;
 
-namespace SoderbergPartners.Kalle.Cqrs.SomeDomain
+namespace Lokf.Cqrs.SomeDomain
 {
     public class SomeAggregate : AggregateRoot
     {

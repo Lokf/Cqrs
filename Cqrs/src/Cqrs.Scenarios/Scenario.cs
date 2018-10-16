@@ -1,10 +1,10 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Commanding;
-using SoderbergPartners.Kalle.Cqrs.Domain;
+﻿using Lokf.Cqrs.Commanding;
+using Lokf.Cqrs.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SoderbergPartners.Kalle.Cqrs.Scenarios
+namespace Lokf.Cqrs.Scenarios
 {
     /// <summary>
     /// A scenario is e specification of the expected behaviour when a command is executed given a specific state.

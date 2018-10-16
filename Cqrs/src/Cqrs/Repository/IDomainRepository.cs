@@ -1,7 +1,7 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Domain;
+﻿using Lokf.Cqrs.Domain;
 using System;
 
-namespace SoderbergPartners.Kalle.Cqrs.Repository
+namespace Lokf.Cqrs.Repository
 {
     /// <summary>
     /// Defines a repository for accessing and storing aggregates.

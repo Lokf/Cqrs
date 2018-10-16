@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SoderbergPartners.Kalle.Cqrs.Domain
+namespace Lokf.Cqrs.Domain
 {
     /// <summary>
     /// Base class for all domain events.

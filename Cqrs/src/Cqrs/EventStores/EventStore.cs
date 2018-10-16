@@ -1,10 +1,10 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Domain;
-using SoderbergPartners.Kalle.Cqrs.Repository;
+﻿using Lokf.Cqrs.Domain;
+using Lokf.Cqrs.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SoderbergPartners.Kalle.Cqrs.EventStores
+namespace Lokf.Cqrs.EventStores
 {
     /// <summary>
     /// An event store that can store and load domain events.

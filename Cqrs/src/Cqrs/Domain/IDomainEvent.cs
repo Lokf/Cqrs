@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SoderbergPartners.Kalle.Cqrs.Domain
+namespace Lokf.Cqrs.Domain
 {
     /// <summary>
     /// A domain event is raised to represent that something has happend inside an aggregate.

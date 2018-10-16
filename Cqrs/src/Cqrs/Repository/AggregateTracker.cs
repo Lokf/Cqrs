@@ -1,7 +1,7 @@
-﻿using SoderbergPartners.Kalle.Cqrs.Domain;
+﻿using Lokf.Cqrs.Domain;
 using System.Collections.Generic;
 
-namespace SoderbergPartners.Kalle.Cqrs.Repository
+namespace Lokf.Cqrs.Repository
 {
     /// <summary>
     /// An aggregate tracker.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SoderbergPartners.Kalle.Cqrs.EventStores
+namespace Lokf.Cqrs.EventStores
 {
     /// <summary>
     /// The serialized presentation of a domain event.
